@@ -35,19 +35,14 @@ body, html {
   .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     width: 100vw;
     text-align: center;
-    color: #000;
-  }
-  
-  .caption span.border {
-    background-color: #2e3338;
-    color: #fff;
-    padding: 2vw;
-    font-size: 30px;
+    font-family: 'Bigelow Rules', cursive;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 8vw;
     letter-spacing: 10px;
-    border-radius: 15px;
   }
 
   /* Link Fix */
@@ -59,12 +54,12 @@ body, html {
     visibility: hidden;
  }
 
- /* Background Effect Responsiveness 500px, */
+ /* Background Effect Responsiveness 700px, */
  
- @media screen and (max-width: 500px) {
-   .caption span.border {
-     padding: 10px;
-     font-size: 20px;
+ @media screen and (max-width: 700px) {
+   .caption {
+     top: 48%;
+     font-size: 10vw;
      letter-spacing: 5px;
    }
 
