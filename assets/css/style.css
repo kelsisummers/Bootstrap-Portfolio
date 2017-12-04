@@ -1,13 +1,9 @@
 body, html {
     height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    /* opacity: 0.8; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,11 +48,11 @@ body, html {
     border-radius: 15px;
   }
 
-  .anchor{
+  .anchor {
     display:block;
     height:63px; 
     margin-top:-75px; 
-    visibility:hidden;
+    visibility: hidden;
  }
 
  #about-image {
@@ -65,10 +61,6 @@ body, html {
   padding-right: 30px;
   padding-bottom: 10px;
   margin-top: 25px;
- }
-
- @media screen and (max-width: 600px) {
-
  }
 
  @media screen and (max-width: 500px) {
