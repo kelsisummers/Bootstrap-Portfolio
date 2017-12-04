@@ -50,7 +50,7 @@ body, html {
     border-radius: 15px;
   }
 
-  /* Inner Hyperlink Fix */
+  /* Link Fix */
 
   .anchor {
     display:block;
@@ -59,32 +59,20 @@ body, html {
     visibility: hidden;
  }
 
- /* Background Effect Responsiveness */
+ /* Background Effect Responsiveness 500px, */
+ 
  @media screen and (max-width: 500px) {
    .caption span.border {
      padding: 10px;
      font-size: 20px;
+     letter-spacing: 5px;
    }
 
    .bgimg-1 {
-     min-height: 500px;
+     min-height: 90vw;
    }
 
    .bgimg-2, .bgimg-3 {
-     min-height: 400px;
+     min-height: 70vw;
    }
-  }
-
-  @media screen and (max-width: 400px) {
-    .caption span.border {
-      font-size: 16px;
-    }
-
-    .bgimg-1 {
-      min-height: 400px;
-    }
- 
-    .bgimg-2, .bgimg-3 {
-      min-height: 300px;
-    }
   }
