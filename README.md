@@ -1,3 +1,3 @@
 # Bootstrap-Portfolio
 
-Third Project: Build a portfolio layout using the Bootstrap CSS Framework.
+Project 3: Build a portfolio layout using the Bootstrap CSS Framework.
