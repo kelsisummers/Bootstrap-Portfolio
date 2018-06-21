@@ -1,7 +1,32 @@
 /* CSS Background Effect */
-
-body, html {
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+  }
+
+.specs {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  /* text-align: right */
+}
+.card-text {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  list-style: circle;
+  /* text-align: right */
+}
+
+  .footer-container{
+    text-align: right; 
+    background-color: #2e3338; 
+    height: 75px;
+    line-height: 75px;
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -10,27 +35,34 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
   }
   .bgimg-1 {
-    background-image: url("../images/header-image-9.jpg");
+    background-image: url("../images/header-image-9.png");
     min-height: 100%;
-    border-bottom: 8px solid #000;
+    border-bottom: 8px solid #1b1c1c;
   }
   
   .bgimg-2 {
-    background-image: url("../images/header-image-9.jpg");
-    min-height: 500px;
-    border-bottom: 8px solid #000;
-    border-top: 8px solid #000;
+    background-image: url("../images/header-image-9.png");
+    min-height: 250px;
+    border-bottom: 8px solid #1b1c1c;
+    border-top: 8px solid #1b1c1c;
   }
 
   .bgimg-3 {
-    background-image: url("../images/header-image-9.jpg");
-    min-height: 500px;
-    border-top: 8px solid #000;
-    border-bottom: 1px solid #000;
+    background-image: url("../images/header-image-9.png");
+    min-height: 250px;
+    border-top: 8px solid #1b1c1c;
   }
+
+  .navbar-dark .navbar-brand {
+    color: #f7f7f7;
+}
+
+.navbar-dark .navbar-brand{
+  color: #f7f7f7;
+  font-weight: 400;
+}
   
   .caption {
     position: absolute;
@@ -39,20 +71,45 @@ body, html {
     width: 100vw;
     text-align: center;
     font-family: 'Bigelow Rules', cursive;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 8vw;
+    color: #f7f7f7;
+    font-size: 7.18rem;
     letter-spacing: 10px;
+    text-shadow: 0 1px 0 rgb(204,204,204), 0 2px 0 rgb(201,201,201), 0 3px 0 rgb(187,187,187), 0 4px 0 rgb(185,185,185), 0 5px 0 #1b1c1c, 0 6px 1px rgba(0,0,0,.5), 0 0 5px rgba(0,0,0,0.0980392), 0 1px 3px rgba(0,0,0,0.298039), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.247059), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.14902);
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
   }
+
+  .navbar-brand, .navbar, .lead, h1.header, h4.card-title, p.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #f7f7f7;
+    text-decoration: underline;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #f7f7f7;
+  font-weight: 300;
+}
+
+
 
   /* Link Fix */
 
-  .anchor {
+  /* .anchor {
     display:block;
     height:63px; 
     margin-top:-75px; 
     visibility: hidden;
- }
+ } */
 
  /* Background Effect Responsiveness 700px, */
  
