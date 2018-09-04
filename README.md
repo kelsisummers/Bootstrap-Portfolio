@@ -2,7 +2,7 @@
 
 Project 3: Build a portfolio layout using the Bootstrap CSS Framework.
 
-GitHub Pages: https://kelsisummers.github.io/PortfolioSite/
+<strong>Hosted App Link: https://kelsisummers.github.io/PortfolioSite/</strong>
 
 Software Stack:
   - HTML
